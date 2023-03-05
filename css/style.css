@@ -1,0 +1,23 @@
+table,th,td{
+	border:2px solid black;
+	border-collapse:collapse;
+	text-align:center;
+	padding:15px;
+}
+table{
+    width:1357px;
+	height:auto;
+}
+td{
+	height:50px;
+	vertical-align:center;
+	
+}
+tr:nth-child(even){
+	background-color:green;
+}
+tr:hover{
+	background-color:gray;
+	color:white;
+	font-size:25px;
+}
